@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Buzzer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    
+</head>
+<body>
+
+    <div class=page>
+        <div class="button-container">
+            <div class="col-1"></div>
+            <div class="button col-2" id="noise-1">
+                <audio id="noise-1a" preload="auto">
+                    <source src="sounds/1electronic_store_bell_three_rings.mp3">
+                </audio>
+                Bell 1
+            </div>
+            <div class="button col-3" id="noise-2">
+                <audio id="noise-2a" preload="auto">
+                    <source src="sounds/2fast_electronic_beeper.mp3">
+                </audio>
+                Bell 2
+            </div>
+            <div class="button col-4" id="noise-3">
+                <audio id="noise-3a" preload="auto">
+                    <source src="sounds/3one_ring_from_church_bell.mp3">
+                </audio>
+                 Bell 3
+            </div>
+            <div class="button col-5" id="noise-4">
+                <audio id="noise-4a" preload="auto">
+                    <source src="sounds/4pig3.mp3">
+                </audio>
+                Bell 4
+            </div>
+            <div class="button col-6" id="noise-5">
+                <audio id="noise-5a" preload="auto">
+                    <source src="sounds/5school_bell.mp3">
+                </audio>
+                Bell 5
+            </div>
+            <div class="button col-7" id="noise-6">
+                <audio id="noise-6a" preload="auto">
+                    <source src="sounds/6short_school_bell_from_inside.mp3">
+                </audio>
+                Bell 6
+            </div>
+            <div class="col-8"></div>
+        </div>
+
+        <img src="images/buzzer.png" alt="title" id="buzzer">
+
+        <a onClick="togglePlay()">
+            
+            <img class="btn" src="images/button.png" alt="buzzer">
+            <img class="btn-pushed" src="images/button-pushed.png" alt="btn-pushed">
+        </a>
+    
+    </div>  
+
+    <p>http://www.freesfx.co.uk</p>
+   
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
